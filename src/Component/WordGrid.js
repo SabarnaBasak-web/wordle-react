@@ -19,7 +19,6 @@ function WordGrid({ word, solution, validate, finished }) {
           backgroundColor = 'white';
         }
       }
-      console.log("i ----", i);
       row.push(<div key={`${word}-div${i}`} className='box' style={{backgroundColor:backgroundColor  }}>{char}</div>)
     }
     return row;
